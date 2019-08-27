@@ -10,6 +10,9 @@ namespace ConsoleAppforDevops
     {
         static void Main(string[] args)
         {
+
+
+
         }
     }
 }
