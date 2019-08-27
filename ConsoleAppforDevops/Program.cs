@@ -26,7 +26,17 @@ namespace ConsoleAppforDevops
         {
             logger.Info("deleteCmTest success");
         }
-        
+
+        public bool ChkTicket1()
+        {
+            return true;
+        }
+
+        public bool ChkTicket2()
+        {
+            return true;
+        }
+
 
     }
 
@@ -38,6 +48,14 @@ namespace ConsoleAppforDevops
             logger.Info("deleteCmTest success");
         }
 
+        public bool ChkTicket1()
+        {
+            return true;
+        }
 
+        public bool ChkTicket2()
+        {
+            return true;
+        }
     }
 }
