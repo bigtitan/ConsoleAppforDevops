@@ -19,14 +19,25 @@ namespace ConsoleAppforDevops
     }
 
 
-    public class BusinessRepo
+    public class BusinessRepo1
     {
         private static Logger logger = NLog.LogManager.GetCurrentClassLogger();
-        public BusinessRepo()
+        public BusinessRepo1()
         {
             logger.Info("deleteCmTest success");
         }
         
+
+    }
+
+    public class BusinessRepo2
+    {
+        private static Logger logger = NLog.LogManager.GetCurrentClassLogger();
+        public BusinessRepo2()
+        {
+            logger.Info("deleteCmTest success");
+        }
+
 
     }
 }
